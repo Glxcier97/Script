@@ -203,8 +203,8 @@ Section:NewButton("Insanity Powers", "Have Fun", function()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/ygWAZh5A"))()
 end)
 
-Section:NewButton("Zen", "Have Fun", function()
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/o5u3/Zen/main/ZenFlingFE.txt"))()
+Section:NewButton("Fling", "Have Fun", function()
+	loadstring(game:HttpGet('https://files.shade4real.net/flinger.txt'))()
 end)
 
 Section:NewButton("Hell Robotics", "Have Fun", function()
