@@ -275,10 +275,6 @@ Section:NewButton("Dinosaur", "Have Fun", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
 end)
 
-Section:NewButton("Saitama", "Have Fun", function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/aaa'))()
-end)
-
 Section:NewButton("Vape", "Have Fun", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/dam'))()
 end)
