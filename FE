@@ -279,6 +279,10 @@ Section:NewButton("Saitama", "Have Fun", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/aaa'))()
 end)
 
+Section:NewButton("Vape", "Have Fun", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/dam'))()
+end)
+
 Main:NewButton("Reset", "Have Fun", function()
   local char = game.Players.LocalPlayer.Character
 		if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(15) end
