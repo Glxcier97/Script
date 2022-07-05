@@ -271,6 +271,14 @@ Section:NewButton("Egg Dog", "Have Fun", function()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/rkAD6D4J"))()
 end)
 
+Section:NewButton("Dinosaur", "Have Fun", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/PYXDYT/DinoBlox/main/FE%20Script'),true))()
+end)
+
+Section:NewButton("Saitama", "Have Fun", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/e/main/aaa'))()
+end)
+
 Main:NewButton("Reset", "Have Fun", function()
   local char = game.Players.LocalPlayer.Character
 		if char:FindFirstChildOfClass("Humanoid") then char:FindFirstChildOfClass("Humanoid"):ChangeState(15) end
