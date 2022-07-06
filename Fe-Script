@@ -296,5 +296,4 @@ Main:NewButton("Netless", "Netless Reanimation", function()
 end
 Main:NewButton("Reanimation", "Reanimation", function()
   	loadstring(game:HttpGet('https://raw.githubusercontent.com/Glxcier97/diajfiu/main/eee'))()
-  end
-end)
+end
